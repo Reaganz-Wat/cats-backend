@@ -13,4 +13,13 @@ export class Cat {
 
     @Column()
     breed: string;
+
+    @Column()
+    color: string;
+
+    @Column()
+    weight: number;
+
+    @Column()
+    owner: string;
 }
